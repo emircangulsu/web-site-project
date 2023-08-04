@@ -1,0 +1,2057 @@
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-UltraLight.woff2) format("woff2"), url(../fonts/SofiaPro-UltraLight.woff) format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-UltraLightitalic.woff2) format("woff2"), url(../fonts/SofiaPro-UltraLightitalic.woff) format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-ExtraLight.woff2) format("woff2"), url(../fonts/SofiaPro-ExtraLight.woff) format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-ExtraLightitalic.woff2) format("woff2"), url(../fonts/SofiaPro-ExtraLightitalic.woff) format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-Light.woff2) format("woff2"), url(../fonts/SofiaPro-Light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-Lightitalic.woff2) format("woff2"), url(../fonts/SofiaPro-Lightitalic.woff) format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-Regular.woff2) format("woff2"), url(../fonts/SofiaPro-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-Regularitalic.woff2) format("woff2"), url(../fonts/SofiaPro-Regularitalic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-Medium.woff2) format("woff2"), url(../fonts/SofiaPro-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-Mediumitalic.woff2) format("woff2"), url(../fonts/SofiaPro-Mediumitalic.woff) format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-SemiBold.woff2) format("woff2"), url(../fonts/SofiaPro-SemiBold.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-SemiBolditalic.woff2) format("woff2"), url(../fonts/SofiaPro-SemiBolditalic.woff) format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-Bold.woff2) format("woff2"), url(../fonts/SofiaPro-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-Bolditalic.woff2) format("woff2"), url(../fonts/SofiaPro-Bolditalic.woff) format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-Black.woff2) format("woff2"), url(../fonts/SofiaPro-Black.woff) format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url(../fonts/SofiaPro-Blackitalic.woff2) format("woff2"), url(../fonts/SofiaPro-Blackitalic.woff) format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap; }
+
+.main-header {
+  padding: 32px 0;
+  background: #fff;
+  transition: all 0.3s ease; }
+
+.main-header.header-fixed {
+  padding: 16px 0;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.15);
+  background: #fff; }
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: 3rem; }
+
+.fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: 3rem;
+  top: 0; }
+
+.header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #17171a;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  display: flex !important;
+  flex-basis: auto;
+  order: 2;
+  flex-grow: 1;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px; }
+
+.navbar-brand {
+  margin-right: 3rem;
+  padding-left: 1rem; }
+
+.nav-item {
+  margin-bottom: 1%;
+  display: flex;
+  padding: 0.5rem; }
+
+.navbar-right{
+  display: flex;
+  flex-direction: row;
+  margin: 0%;
+  justify-content: end;
+  width: 700px;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  order: 3;
+  width: auto;
+  font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  align-items: center;}
+
+.languages {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: #17171a;
+  font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif; }
+  
+.dropbtn {
+  color: black;
+  cursor: pointer;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 2%; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius:10px;
+  transition-duration: 0.4s;}
+
+.dropdown-content show {
+  transition-duration: 0.4s;}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: small;
+  font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif; }
+
+.dropdown a:hover {
+  color: #155ed4;}
+
+.show {
+  display: block;
+  top: 3.5rem;
+  right: -2%;} 
+
+.button {
+  font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: white;
+  border: none;
+  padding: 0.85rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px; }
+
+.button2 {
+  font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0.85rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px; }
+
+.button4 {
+  border-radius: 12px;
+  border: 2px solid #f5f5fa;
+  color: #17171a; 
+  margin: 2%;}
+  .button4:hover {
+    background-color: #f5f5fa; }
+
+.headerbutton {
+  background-color: #E7EEFB;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif; }
+
+.headerbutton1 {
+  background-color: white;
+  color: black; }
+  .headerbutton1:hover {
+    background-color: #E7EEFB; }
+
+.morebutton {
+  background-color: #155ed4;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif; }
+
+.morebutton1 {
+  background-color: #155ed4;
+  color: black; }
+  .morebutton1:hover {
+    background-color: #0d3e8d; }
+
+.morebutton2 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  height: 65px;
+  border-radius: 20px; }
+  .morebutton2:hover {
+    background-color: black; }
+
+.helpbutton1 {
+  text-align: center;
+  background-color: white;
+  color: white;
+  padding: 10px;
+  width: 139px;
+  height: 39px;
+  border-radius: 10px; }
+  .helpbutton1:hover {
+    background-color: whitesmoke; }
+
+.howtobutton1 {
+  text-align: center;
+  background-color: #e8e8f0;
+  color: black;
+  padding: 13px 29px 13px 29px;
+  width: auto;
+  height: auto;
+  border-radius: 10px; }
+  .howtobutton1:hover {
+    background-color: black;
+    color: white; }
+
+.howtobutton2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 13px 29px 13px 29px;
+  width: auto;
+  height: auto;
+  border-radius: 10px; }
+  .howtobutton2:hover {
+    background-color: white;
+    color: black; }
+
+.circlebutton {
+  background-color: #f0f0f5;
+  border: none;
+  color: black;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif; }
+
+.circlebutton1 {
+  text-align: center;
+   background-color: #f0f0f5;
+   color: black;
+   width: auto;
+   height: auto;
+   border-radius: 50px; }
+   .circlebutton1:hover {
+     background-color: gainsboro;
+     border-style: solid;
+     border-color: #f0f0f5;}
+
+.homepage-section-intro {
+  box-sizing: border-box;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-80%, -130%);
+  padding: 10px; }
+  .homepage-section-intro * {
+    box-sizing: border-box;
+    align-items: center; }
+
+.homepage-section-intro__container {
+  width: 993px;
+  height: 323px;
+  position: static; }
+
+.homepage-section-intro__text {
+  width: 528px;
+  height: 322px;
+  position: static; }
+
+.homepage-section-intro__fups {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 223px;
+  top: 498px;
+  font-weight: 600; }
+
+.homepage-section-intro__group-1 {
+  width: 528px;
+  height: 241px;
+  position: static; }
+
+.homepage-section-intro__sen-de {
+  color: #000000;
+  text-align: left;
+  font: 700 64px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 223px;
+  top: 406px; }
+
+.homepage-section-intro__guvenle-yonet {
+  color: #000000;
+  text-align: left;
+  font: 700 64px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 223px;
+  top: 324px; }
+
+.homepage-section-intro__parani-fups-diye {
+  color: #000000;
+  text-align: left;
+  font: 700 64px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 223px;
+  top: 242px; }
+
+.homepage-section-intro__uygulama {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 223px;
+  top: 210px;
+  font-weight: 600; }
+
+.homepage-section-intro__image-1 {
+  max-width: 150%;
+  max-height: 150%;
+  position: absolute;
+  left: 836px;
+  top: 110px; }
+
+.homepage-section-features {
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0; }
+  .homepage-section-features * {
+    box-sizing: border-box; }
+
+.homepage-section-features__rectangle-4 {
+  background: #f5f5fa;
+  width: auto;
+  height: 706px;
+  position: relative;
+  left: 0px;
+  top: 689px; }
+
+.homepage-section-features__parani-fups-diye-yonet {
+  color: #000000;
+  text-align: left;
+  font: 600 32px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 778px; }
+
+.homepage-section-features__ozellikler {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 753px; }
+
+.homepage-section-features__group-5 {
+  width: 1313px;
+  height: 323px;
+  position: absolute;
+  left: 12.5%;
+  top: 0; }
+
+.homepage-section-features__group-3 {
+  width: 264px;
+  height: 323px;
+  position: static; }
+
+.homepage-section-features__rectangle-5 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 264px;
+  height: 323px;
+  position: absolute;
+  left: 1112px;
+  top: 880px; }
+
+.homepage-section-features__sec-sec-hesap {
+  color: #000000;
+  text-align: center;
+  font: 500 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 1223px;
+  top: 1099px; }
+
+.homepage-section-features__harcama-limiti-tanimla-harcanmazsa-paran-sende-kalsin {
+  color: #5a5a5a;
+  text-align: center;
+  font: 400 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: relative;
+  left: 1110px;
+  top: 1121px; }
+
+.homepage-section-features__image-2 {
+  width: 174px;
+  height: 172px;
+  position: absolute;
+  left: 1157px;
+  top: 895px; }
+
+.homepage-section-features__group-2 {
+  width: 264px;
+  height: 323px;
+  position: static; }
+
+.homepage-section-features__rectangle-52 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 264px;
+  height: 323px;
+  position: absolute;
+  left: 413px;
+  top: 880px; }
+
+.homepage-section-features__sec-sec-hesap2 {
+  color: #000000;
+  text-align: center;
+  font: 500 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 498px;
+  top: 1097px; }
+
+.homepage-section-features__harcama-limiti-tanimla-harcanmazsa-paran-sende-kalsin2 {
+  color: #5a5a5a;
+  text-align: center;
+  font: 400 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 433px;
+  top: 1119px; }
+
+.homepage-section-features__image-22 {
+  width: 174px;
+  height: 172px;
+  position: absolute;
+  left: 458px;
+  top: 895px; }
+
+.homepage-section-features__rectangle-53 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 264px;
+  height: 323px;
+  position: absolute;
+  left: 763px;
+  top: 880px; }
+
+.homepage-section-features__sec-sec-hesap3 {
+  color: #000000;
+  text-align: center;
+  font: 500 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 855px;
+  top: 1097px; }
+
+.homepage-section-features__harcama-limiti-tanimla-harcanmazsa-paran-sende-kalsin3 {
+  color: #5a5a5a;
+  text-align: center;
+  font: 400 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 783px;
+  top: 1119px; }
+
+.homepage-section-features__image-23 {
+  width: 174px;
+  height: 172px;
+  position: absolute;
+  left: 808px;
+  top: 895px; }
+
+.homepage-section-features__group-4 {
+  width: 264px;
+  height: 323px;
+  position: static; }
+
+.homepage-section-features__rectangle-54 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 264px;
+  height: 323px;
+  position: absolute;
+  left: 63px;
+  top: 880px; }
+
+.homepage-section-features__sec-sec-hesap4 {
+  color: #000000;
+  text-align: center;
+  font: 500 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 119px;
+  top: 1097px; }
+
+.homepage-section-features__harcama-limiti-tanimla-harcanmazsa-paran-sende-kalsin4 {
+  color: #5a5a5a;
+  text-align: center;
+  font: 400 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 94px;
+  top: 1119px; }
+
+.homepage-section-features__image-24 {
+  width: 174px;
+  height: 172px;
+  position: absolute;
+  left: 108px;
+  top: 895px; }
+
+.homepage-section-opportunities {
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0;
+  left: 13%; }
+  .homepage-section-opportunities * {
+    box-sizing: border-box; }
+
+.homepage-section-opportunities__fups-ile-ode-fups-diye-kazan {
+  color: #000000;
+  text-align: left;
+  font: 600 32px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 1480px; }
+
+.homepage-section-opportunities__kampanyalar {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 1455px; }
+
+.homepage-section-opportunities__group-6 {
+  width: 372px;
+  height: 341px;
+  position: static; }
+
+.homepage-section-opportunities__image-3 {
+  border-radius: 30px 30px 0px 0px;
+  width: 372px;
+  height: 219px;
+  position: absolute;
+  left: 113px;
+  top: 1626px; }
+
+.homepage-section-opportunities__ismine-ozel-fups-kart-ucreti {
+  color: #000000;
+  text-align: left;
+  font: 500 18px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 130px;
+  top: 1867px; }
+
+.homepage-section-opportunities__mobil-uygulama-veya-internet-sube {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 130px;
+  top: 1922px; }
+
+.homepage-section-opportunities__group-7 {
+  width: 372px;
+  height: 336px;
+  position: static; }
+
+.homepage-section-opportunities__image-32 {
+  border-radius: 30px 30px 0px 0px;
+  width: 372px;
+  height: 219px;
+  position: absolute;
+  left: 534px;
+  top: 1626px; }
+
+.homepage-section-opportunities__netflix-abonelik-odemelerine-aninda-nakit-iade {
+  color: #000000;
+  text-align: left;
+  font: 500 18px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 551px;
+  top: 1867px; }
+
+.homepage-section-opportunities__netflix-abonelik-odemeni-fups-kart-ile-yap-uyelik-odemene-19-tl-aninda-nakit-iade-olsun {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 551px;
+  top: 1932px; }
+
+.homepage-section-opportunities__group-8 {
+  width: 372px;
+  height: 336px;
+  position: static; }
+
+.homepage-section-opportunities__image-33 {
+  border-radius: 30px 30px 0px 0px;
+  width: 372px;
+  height: 219px;
+  position: absolute;
+  left: 955px;
+  top: 1626px; }
+
+.homepage-section-opportunities__netflix-abonelik-odemelerine-aninda-nakit-iade2 {
+  color: #000000;
+  text-align: left;
+  font: 500 18px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 972px;
+  top: 1867px; }
+
+.homepage-section-opportunities__netflix-abonelik-odemeni-fups-kart-ile-yap-uyelik-odemene-19-tl-aninda-nakit-iade-olsun2 {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 972px;
+  top: 1932px; }
+
+.homepage-section-opportunities__t-m-kampanyalar {
+  width: 166px;
+  height: 44px;
+  position: static; }
+
+.homepage-section-opportunities__t-m-kampanyalar2 {
+  color: #ffffff;
+  text-align: center;
+  font: 600 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  width: 166px;
+  height: 44px;
+  left: 659px;
+  top: 2042px; }
+
+.homepage-section-kart {
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0;
+  left: 50%;
+  top: 55%;
+  transform: translate(-80%, -130%); }
+  .homepage-section-kart * {
+    box-sizing: border-box; }
+
+.homepage-section-kart__vakit-nakittir-ikisini-de-yonetin {
+  color: #000000;
+  text-align: left;
+  font: 600 40px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 2329px; }
+
+.homepage-section-kart__fups-kart {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 2304px; }
+
+.homepage-section-kart__ellipse-1 {
+  background: #f0f0f5;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 163px;
+  top: 2214px; }
+
+.homepage-section-kart__ellipse-2 {
+  background: #f0f0f5;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 293px;
+  top: 2214px; }
+
+.homepage-section-kart__ellipse-3 {
+  background: #f0f0f5;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 228px;
+  top: 2214px; }
+
+.homepage-section-kart__uygulama-veya-web-sube-uzerinden-adresine-gonderilecek {
+  color: #17171a;
+  text-align: left;
+  font: 500 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 2475px; }
+
+.homepage-section-kart__image-4 {
+  width: 641px;
+  height: 641px;
+  position: absolute;
+  left: 700px;
+  top: 2137px; }
+
+.homepage-section-kart__group-8 {
+  width: 428px;
+  height: 63px;
+  position: static; }
+
+.homepage-section-kart__image-5 {
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  left: 146px;
+  top: 2670px; }
+
+.homepage-section-kart__fups-kart-satis-noktalarindan-da-alabilirsin {
+  color: #bebebe;
+  text-align: left;
+  font: 600 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 177px;
+  top: 2716px; }
+
+.homepage-section-kart__image-6 {
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  left: 284px;
+  top: 2670px; }
+
+.homepage-section-kart__image-7 {
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  left: 454px;
+  top: 2670px; }
+
+.homepage-section-kart__daha-fazla-bilgi {
+  width: 200px;
+  height: 65px;
+  position: static; }
+
+.homepage-section-kart__rectangle-7 {
+  border-radius: 20px;
+  width: 200px;
+  height: 65px;
+  position: absolute;
+  left: 163px;
+  top: 2567px; }
+
+.homepage-section-kart__daha-fazla-bilgi2 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 2567px; }
+
+.homepage-section-discover {
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0; }
+  .homepage-section-discover * {
+    box-sizing: border-box; }
+
+.homepage-section-discover__rectangle-8 {
+  background: #f5f5fa;
+  width: auto;
+  height: 803px;
+  position: relative;
+  left: 0px;
+  top: 2778px; }
+
+.homepage-section-discover__group-13 {
+  width: 1114px;
+  height: 327px;
+  position: static; }
+
+.homepage-section-discover__group-9 {
+  width: 230px;
+  height: 245px;
+  position: static; }
+
+.homepage-section-discover__fups-u-mesajlasarak-kullan {
+  color: #000000;
+  text-align: left;
+  font: 600 36px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 15%;
+  top: 3141px; }
+
+.homepage-section-discover__bir-kisi-veya-grup-ile-guvenli-bir-sekilde-mesajla-para-gonder {
+  color: #939399;
+  text-align: left;
+  font: 600 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 15%;
+  top: 3296px; }
+
+.homepage-section-discover__group-10 {
+  width: 237px;
+  height: 83px;
+  position: static; }
+
+.homepage-section-discover__yepyeni-bir-deneyim {
+  color: #000000;
+  text-align: left;
+  font: 600 24px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 75%;
+  top: 3141px; }
+
+.homepage-section-discover__bir-kisi-veya-grupla-mesajlasarak-islem-yap {
+  color: #939399;
+  text-align: left;
+  font: 600 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 75%;
+  top: 3188px; }
+
+.homepage-section-discover__group-11 {
+  width: 216px;
+  height: 83px;
+  position: static; }
+
+.homepage-section-discover__pratik {
+  color: #000000;
+  text-align: left;
+  font: 600 24px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 75%;
+  top: 3254px; }
+
+.homepage-section-discover__kisi-secmene-gerek-kalmadan-chat-zerinden-islem-baslat {
+  color: #939399;
+  text-align: left;
+  font: 600 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 75%;
+  top: 3301px; }
+
+.homepage-section-discover__group-12 {
+  width: 207px;
+  height: 101px;
+  position: static; }
+
+.homepage-section-discover__islevsel {
+  color: #000000;
+  text-align: left;
+  font: 600 24px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 75%;
+  top: 3367px; }
+
+.homepage-section-discover___4-turde-islem-yap-islemlerini-chat-uzerinden-takip-et {
+  color: #939399;
+  text-align: left;
+  font: 600 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 75%;
+  top: 3414px; }
+
+.homepage-section-discover__fups-u-kesfet {
+  color: #b8b8b8;
+  text-align: left;
+  font: 700 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 48%;
+  top: 2849px; }
+
+.homepage-section-discover__daha-fazlasini-yapabilecek-bir-uygulama-edinin {
+  color: #000000;
+  text-align: center;
+  font: 700 48px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 35%;
+  top: 2890px; }
+
+.discover-fups-bottom {
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0; }
+  .discover-fups-bottom * {
+    box-sizing: border-box; }
+
+.discover-fups-bottom__rectangle-8 {
+  background: #f9f9fc;
+  width: -webkit-fill-available;
+  height: 961px;
+  position: absolute;
+  left: 0px;
+  top: 3581px; }
+
+.discover-fups-bottom__group-14 {
+  width: 585px;
+  height: 113px;
+  position: static; }
+
+.discover-fups-bottom__sadece-fups-ta-bulacagin-ozelliklere-merhaba-de {
+  color: #939399;
+  text-align: center;
+  font: 600 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 41.5%;
+  top: 3688px; }
+
+.discover-fups-bottom__bu-ozellikler-fups-a-ozel {
+  color: #000000;
+  text-align: center;
+  font: 700 48px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 35%;
+  top: 3611px; }
+
+.discover-fups-bottom__group-15 {
+  width: 275px;
+  height: 275px;
+  position: static; }
+
+.discover-fups-bottom__rectangle-9 {
+  background: #f5f5fa;
+  border-radius: 25px;
+  width: 275px;
+  height: 275px;
+  position: absolute;
+  left: 442px;
+  top: 3795px; }
+
+.discover-fups-bottom__sec-sec-hesap {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 462px;
+  top: 3903px; }
+
+.discover-fups-bottom__istedigin-kisilere-ortak-harcama {
+  color: #939399;
+  text-align: left;
+  font: 500 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 462px;
+  top: 3933px; }
+
+.discover-fups-bottom__rectangle-10 {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 462px;
+  top: 3842px; }
+
+.discover-fups-bottom__group-16 {
+  width: 275px;
+  height: 275px;
+  position: static; }
+
+.discover-fups-bottom__rectangle-92 {
+  background: #f5f5fa;
+  border-radius: 25px;
+  width: 275px;
+  height: 275px;
+  position: absolute;
+  left: 60%;
+  top: 3815px; }
+
+.discover-fups-bottom__sec-sec-hesap2 {
+  color: #000000;
+  text-align: center;
+  font: 500 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 61.5%;
+  top: 3923px;
+  font-weight: bold; }
+
+.discover-fups-bottom__istedigin-kisilere-ortak-harcama2 {
+  color: #939399;
+  text-align: left;
+  font: 500 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 61.5%;
+  top: 3953px; }
+
+.discover-fups-bottom__rectangle-102 {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 61.5%;
+  top: 3862px; }
+
+.discover-fups-bottom__group-17 {
+  width: 275px;
+  height: 275px;
+  position: static; }
+
+.discover-fups-bottom__rectangle-93 {
+  background: #f5f5fa;
+  border-radius: 25px;
+  width: 275px;
+  height: 275px;
+  position: absolute;
+  left: 427px;
+  top: 4110px; }
+
+.discover-fups-bottom__sec-sec-hesap3 {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 462px;
+  top: 4218px; }
+
+.discover-fups-bottom__istedigin-kisilere-ortak-harcama3 {
+  color: #939399;
+  text-align: left;
+  font: 500 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 462px;
+  top: 4248px; }
+
+.discover-fups-bottom__rectangle-103 {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 462px;
+  top: 4157px; }
+
+.discover-fups-bottom__group-18 {
+  width: 275px;
+  height: 275px;
+  position: static; }
+
+.discover-fups-bottom__rectangle-94 {
+  background: #f5f5fa;
+  border-radius: 25px;
+  width: 275px;
+  height: 275px;
+  position: absolute;
+  left: 59%;
+  top: 4130px; }
+
+.discover-fups-bottom__sec-sec-hesap4 {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 60.5%;
+  top: 4238px; }
+
+.discover-fups-bottom__istedigin-kisilere-ortak-harcama4 {
+  color: #939399;
+  text-align: left;
+  font: 500 15px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 60.5%;
+  top: 4268px; }
+
+.discover-fups-bottom__rectangle-104 {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 60.5%;
+  top: 4177px; }
+
+.discover-fups-bottom__tum-kampanyalar {
+  width: 170px;
+  height: 46px;
+  position: static; }
+
+.discover-fups-bottom__daha-fazla-bilgi {
+  color: #ffffff;
+  text-align: center;
+  font: 600 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 53.5rem;
+  top: 4446px; }
+
+.homepage-section-usage {
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0; }
+  .homepage-section-usage * {
+    box-sizing: border-box; }
+
+.homepage-section-usage__group-20 {
+  width: 440px;
+  height: 66px;
+  position: static; }
+
+.homepage-section-usage__rectangle-13 {
+  background: #155ed4;
+  border-radius: 30px;
+  width: 440px;
+  height: 66px;
+  position: absolute;
+  left: 163px;
+  top: 5163px; }
+
+.homepage-section-usage__group-19 {
+  width: 400.91px;
+  height: 39px;
+  position: static; }
+
+.homepage-section-usage__yardima-mi-ihtiyacin-var {
+  color: #ffffff;
+  text-align: left;
+  font: 600 16px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 178.09px;
+  top: 5184px;
+  width: 246.12px; }
+
+.homepage-section-usage__yardim-sayfasi {
+  color: #000000;
+  text-align: center;
+  font: 600 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 440px;
+  top: 5177px; }
+
+.homepage-section-usage__buttons {
+  width: 381px;
+  height: 345px;
+  position: static; }
+
+.homepage-section-usage__kayit-ol {
+  width: 100px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__kayit-ol2 {
+  color: #ffffff;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 4780px; }
+
+.homepage-section-usage__para-yukle-kredi-banka-karti {
+  width: 250px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__para-yukle-kredi-banka-karti2 {
+  color: #000000;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 281px;
+  top: 4780px; }
+
+.homepage-section-usage__para-yukle-banka-transfer {
+  width: 241px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__para-yukle-banka-transfer2 {
+  color: #000000;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 4840px; }
+
+.homepage-section-usage__kart-siparisi {
+  width: 125px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__kart-siparisi2 {
+  color: #000000;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 412px;
+  top: 4840px; }
+
+.homepage-section-usage__sec-sec-hesap {
+  width: 130px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__sec-sec-hesap2 {
+  color: #000000;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 4900px; }
+
+.homepage-section-usage__fups-chat {
+  width: 100px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__fups-chat2 {
+  color: #000000;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 317px;
+  top: 4900px; }
+
+.homepage-section-usage__ikili-hesap {
+  width: 113px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__ikili-hesap2 {
+  color: #000000;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 446px;
+  top: 4900px; }
+
+.homepage-section-usage__para-gonder {
+  width: 122px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__para-gonder2 {
+  color: #000000;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 4960px; }
+
+.homepage-section-usage__harcamadan-bol-bol {
+  width: 182px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__harcamadan-bol-bol2 {
+  color: #000000;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 313px;
+  top: 4960px; }
+
+.homepage-section-usage__abonelik-olustur {
+  width: 150px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__abonelik-olustur2 {
+  color: #000000;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 5020px; }
+
+.homepage-section-usage__hesap-eslestir {
+  width: 135px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__hesap-eslestir2 {
+  color: #000000;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 343px;
+  top: 5020px; }
+
+.homepage-section-usage__hesap-eslestir3 {
+  width: 182px;
+  height: 45px;
+  position: static; }
+
+.homepage-section-usage__hesabi-karta-baglama {
+  color: #000000;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 5080px; }
+
+.homepage-section-usage__nasil-kullanirim {
+  color: #bebebe;
+  text-align: left;
+  font: 600 12px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 4654px; }
+
+.homepage-section-usage__kontrol-senin-elinde {
+  color: #000000;
+  text-align: left;
+  font: 600 40px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 163px;
+  top: 4682px; }
+
+.homepage-section-apps {
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0;
+  left: 13%; }
+  .homepage-section-apps * {
+    box-sizing: border-box; }
+
+.homepage-section-apps__group-21 {
+  width: 496px;
+  height: 48px;
+  position: static; }
+
+.homepage-section-apps__image-9 {
+  width: 152px;
+  height: 48px;
+  position: absolute;
+  left: 472px;
+  top: 5723px; }
+
+.homepage-section-apps__image-10 {
+  width: 152px;
+  height: 48px;
+  position: absolute;
+  left: 644px;
+  top: 5723px; }
+
+.homepage-section-apps__image-11 {
+  width: 152px;
+  height: 48px;
+  position: absolute;
+  left: 816px;
+  top: 5723px; }
+
+.homepage-section-apps__image-13 {
+  width: 86px;
+  height: 470px;
+  position: absolute;
+  left: 259px;
+  top: 5425px; }
+
+.homepage-section-apps__image-12 {
+  width: 87px;
+  height: 483px;
+  position: absolute;
+  left: 1030px;
+  top: 5384px; }
+
+.homepage-section-apps__fups-diye-indir {
+  color: #000000;
+  text-align: center;
+  font: 600 40px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 383px;
+  top: 5587px; }
+
+.homepage-section-apps__image-8 {
+  width: 129px;
+  height: 129px;
+  position: absolute;
+  left: 655px;
+  top: 5416px; }
+
+.homepage-section-apps__ucretsiz-uye-ol {
+  color: #939399;
+  text-align: left;
+  font: 600 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 662px;
+  top: 5558px; }
+
+.how-to-use-it2{
+  position: absolute;
+  top: 4580px;
+  height: 80%;
+  left: 1050px;}
+.how-to-use-video-player{
+  position: absolute;
+  top: 4587px;
+  height: 56%;
+  left: 1108px;}
+.home-page .usage .how-to-use-video .video-player {
+  position: relative;
+  height: 835px;
+  top: 80px;
+  transition: top 3s}
+  
+@media (prefers-reduced-motion:reduce) {
+.home-page .usage .how-to-use-video .video-player {
+  transition: none}}
+  
+@media only screen and (max-width: 767px) {
+  .home-page .usage .how-to-use-video .video-player {
+    width:327px;
+    height: 617px;
+    float: right}}
+    
+.home-page .usage .how-to-use-video .video-player:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/how-to-use-it.png) no-repeat top;
+  width: 713px;
+  height: 835px}
+  
+@media only screen and (max-width: 767px) {
+.home-page .usage .how-to-use-video .video-player:before {
+  width:326px;
+  height: 616px;
+  background: url(../images/how-to-use-it.png) no-repeat top;
+  left: auto;
+  right: 0}}
+  
+.home-page .usage .how-to-use-video .video-player video {
+  width: 263px;
+  margin-left: 66px;
+  margin-top: 11px;
+  border-radius: 30px}
+  
+@media only screen and (max-width: 767px) {
+.home-page .usage .how-to-use-video .video-player video {
+   width:181px;
+   margin-left: 47px;
+   margin-top: 9px;
+   border-radius: 19px}}
+  
+.home-page .usage .how-to-use-video .video-player .play-icon {
+  z-index: 5;
+  width: 36px;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  transition: all .3s ease}
+  
+@media (prefers-reduced-motion:reduce) {
+  .home-page .usage .how-to-use-video .video-player .play-icon {
+    transition: none}}
+  
+.home-page .usage .how-to-use-video .video-player .video-overlay {
+  width: 263px;
+  height: 569px;
+  margin-left: 66px;
+  margin-top: 11px;
+  border-radius: 30px;
+  background: url(../images/how-to-use-it.png) no-repeat 50% rgba(96,96,102,.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  transition: all .3s ease}
+  
+@media (prefers-reduced-motion:reduce) {
+.home-page .usage .how-to-use-video .video-player .video-overlay {
+  transition: none}}
+  
+@media only screen and (max-width: 767px) {
+.home-page .usage .how-to-use-video .video-player .video-overlay {
+  width:181px;
+  height: 391px;
+  margin-left: 47px;
+  margin-top: 9px;
+  border-radius: 19px}}
+  
+.home-page .usage .how-to-use-video .video-player.video-playing .play-icon,.home-page .usage .how-to-use-video .video-player.video-playing .video-overlay {
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+  filter: alpha(opacity=0)}
+  
+.home-page .usage .how-to-use-video.animate__animated .video-player {
+  top: 0}  
+
+.footer {
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0;
+  left: 13%; }
+  .footer * {
+    box-sizing: border-box; }
+
+.footer__image-14 {
+  width: 104px;
+  height: 52px;
+  position: absolute;
+  left: 207px;
+  top: 376rem; }
+
+.footer__daha-fazla {
+  width: 112px;
+  height: 141px;
+  position: static;
+  text-decoration: none; }
+
+.footer__hakkimizda {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 1127px;
+  top: 379rem;
+  text-decoration: none; }
+
+.footer__yardim {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 1127px;
+  top: 380.5rem; }
+
+.footer__uygulamayi-indir {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 1127px;
+  top: 382rem; }
+
+.footer__iletisim {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 1127px;
+  top: 383.5rem; }
+
+.footer__daha-fazla2 {
+  color: #17171a;
+  text-align: left;
+  font: 600 16px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 1127px;
+  top: 376rem; }
+
+.footer__gizlilik-guvenlik-ve-kvkk {
+  width: 236px;
+  height: 266px;
+  position: static; }
+
+.footer__kisisel-verilerin-korunmasi {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 802px;
+  top: 6064px; }
+
+.footer__bilgi-toplumu-hizmetleri {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 802px;
+  top: 6089px; }
+
+.footer__cerceve-sozlesmesi {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 802px;
+  top: 6114px; }
+
+.footer__harcama-itiraz-formu {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 802px;
+  top: 6139px; }
+
+.footer__bireysel-musteri-hakem-heyeti {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 802px;
+  top: 6164px; }
+
+.footer__guvenlik {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 802px;
+  top: 6189px; }
+
+.footer__uyum {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 802px;
+  top: 6214px; }
+
+.footer__tuketici-bilgilendirme-formu {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 802px;
+  top: 6239px; }
+
+.footer__seslendirilmis-sozlesme-ve-formlar {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 802px;
+  top: 6264px; }
+
+.footer__gizlilik-guvenlik-ve-kvkk2 {
+  color: #17171a;
+  text-align: left;
+  font: 600 16px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 802px;
+  top: 376rem; }
+
+.footer__ozellikler {
+  width: 105px;
+  height: 191px;
+  position: static; }
+
+.footer__sec-sec {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 606px;
+  top: 6064px; }
+
+.footer__chat {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 606px;
+  top: 6089px; }
+
+.footer__ikili-hesap {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 606px;
+  top: 6114px; }
+
+.footer__bol-bol {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 606px;
+  top: 6139px; }
+
+.footer__akilli-sanal-kart {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 606px;
+  top: 6164px; }
+
+.footer__fups-qr-kart {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 606px;
+  top: 6189px; }
+
+.footer__ozellikler2 {
+  color: #17171a;
+  text-align: left;
+  font: 600 16px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 606px;
+  top: 6015px; }
+
+.footer__urunler {
+  width: 131px;
+  height: 116px;
+  position: static; }
+
+.footer__urunler2 {
+  color: #17171a;
+  text-align: left;
+  font: 600 16px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 431px;
+  top: 6015px; }
+
+.footer__fups-kart {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 431px;
+  top: 6064px; }
+
+.footer__fups-mobil {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 431px;
+  top: 6089px; }
+
+.footer__fups-internet-sube {
+  color: #939399;
+  text-align: left;
+  font: 500 14px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 431px;
+  top: 6114px; }
+
+.footer__lydians {
+  color: #939399;
+  text-align: left;
+  font: 500 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 254px;
+  top: 397rem; }
+
+.footer__sosyal-medya {
+  width: 634px;
+  height: 53px;
+  position: static; }
+
+.footer__facebook {
+  color: #17171a;
+  text-align: left;
+  font: 500 16px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 288px;
+  top: 6531px; }
+
+.footer__vector {
+  position: absolute;
+  left: 264px;
+  top: 6532px;
+  overflow: visible; }
+
+.footer__instagram {
+  color: #17171a;
+  text-align: left;
+  font: 500 16px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 431px;
+  top: 6531px; }
+
+.footer__vector2 {
+  position: absolute;
+  left: 407px;
+  top: 6532px;
+  overflow: visible; }
+
+.footer__twitter {
+  color: #17171a;
+  text-align: left;
+  font: 500 16px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 575px;
+  top: 6531px; }
+
+.footer__vector3 {
+  position: absolute;
+  left: 553px;
+  top: 6534px;
+  overflow: visible; }
+
+.footer__linkedin {
+  color: #17171a;
+  text-align: left;
+  font: 500 16px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 700px;
+  top: 6531px; }
+
+.footer__vector4 {
+  position: absolute;
+  left: 675px;
+  top: 6532px;
+  overflow: visible; }
+
+.footer__you-tube {
+  color: #17171a;
+  text-align: left;
+  font: 500 16px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 834px;
+  top: 6531px; }
+
+.footer__vector5 {
+  position: absolute;
+  left: 811px;
+  top: 6534px;
+  overflow: visible; }
+
+.footer__sosyal-medyada-takip-et {
+  color: #17171a;
+  text-align: left;
+  font: 500 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 254px;
+  top: 6494px; }
+
+.footer__banka-resimleri {
+  width: 800px;
+  height: 66px;
+  position: static; }
+
+.footer__image-15 {
+  width: 128px;
+  height: 66px;
+  position: absolute;
+  left: 264px;
+  top: 6407px; }
+
+.footer__image-16 {
+  width: 128px;
+  height: 66px;
+  position: absolute;
+  left: 432px;
+  top: 6407px; }
+
+.footer__image-17 {
+  width: 128px;
+  height: 66px;
+  position: absolute;
+  left: 600px;
+  top: 6407px; }
+
+.footer__image-18 {
+  width: 128px;
+  height: 66px;
+  position: absolute;
+  left: 768px;
+  top: 6407px; }
+
+.footer__image-19 {
+  width: 128px;
+  height: 66px;
+  position: absolute;
+  left: 936px;
+  top: 6407px; }
+
+.footer__line-1 {
+  border-style: solid;
+  border-color: #939399;
+  border-width: 1px 0 0 0;
+  width: 951px;
+  height: 0px;
+  position: absolute;
+  left: 254px;
+  top: 6576.5px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1); }
+
+.footer__group-22 {
+  width: 951px;
+  height: 16px;
+  position: static; }
+
+.footer___2023-lydians-elektronik-para-ve-odeme-hizmetleri-as {
+  color: #939399;
+  text-align: left;
+  font: 400 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 254px;
+  top: 6607px; }
+
+.footer___telefon {
+  color: #17171a;
+  text-align: right;
+  font: 400 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 1108px;
+  top: 6607px; }
+
+.footer__destek {
+  color: #17171a;
+  text-align: right;
+  font: 400 13px "Inter", Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 921px;
+  top: 6607px; }
+
+.footer__vector6 {
+  position: absolute;
+  left: 1080px;
+  top: 6608px;
+  overflow: visible; }
+
+.footer__vector7 {
+  position: absolute;
+  left: 888px;
+  top: 6609px;
+  overflow: visible; }
+
+@media only screen and (min-width:1200px){
+    div{font-size:40px;}
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+    div{font-size:35px;}
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    div{font-size:30px;}
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    div{font-size:25px;}
+}
+@media only screen and (max-width:575px){
+    div{font-size:20px;}
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129" height="129" viewBox="0 0 129 129">
+    <defs>
+        <filter id="2scv01vpeb" width="214.5%" height="214.5%" x="-57.2%" y="-45.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="13"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.105882353 0 0 0 0 0.749019608 0 0 0 0 0.588235294 0 0 0 0.5 0"/>
+        </filter>
+        <filter id="xogu13ce0c" width="168.4%" height="169.2%" x="-34.2%" y="-34.6%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="9"/>
+        </filter>
+        <filter id="w03q00a71f" width="126.2%" height="126.2%" x="-13.1%" y="-13.1%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.4"/>
+        </filter>
+        <linearGradient id="3d0d8brbne" x1="13.574%" x2="73.367%" y1="8.002%" y2="84.38%">
+            <stop offset="0%" stop-color="#1BBF96" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <path id="buzkanni8a" d="M38.919.919c20.987 0 38 17.013 38 38s-17.013 38-38 38-38-17.013-38-38 17.013-38 38-38z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-655 -7275) translate(0 7184) translate(680 107) translate(1 1)">
+                        <mask id="9oz3nfa5fd" fill="#fff">
+                            <use xlink:href="#buzkanni8a"/>
+                        </mask>
+                        <g>
+                            <use fill="#000" filter="url(#2scv01vpeb)" xlink:href="#buzkanni8a"/>
+                            <use fill="#1BBF96" xlink:href="#buzkanni8a"/>
+                        </g>
+                        <path fill="#32D9AF" d="M27.919-10.081h1c21.539 0 39 17.46 39 39 0 21.539-17.461 39-39 39h-1c-21.54 0-39-17.461-39-39 0-21.54 17.46-39 39-39z" filter="url(#xogu13ce0c)" mask="url(#9oz3nfa5fd)"/>
+                    </g>
+                    <path stroke="url(#3d0d8brbne)" stroke-width="2" d="M40 1c10.77 0 20.52 4.365 27.577 11.423C74.635 19.48 79 29.23 79 40c0 10.77-4.365 20.52-11.423 27.577C60.52 74.635 50.77 79 40 79c-10.77 0-20.52-4.365-27.577-11.423C5.365 60.52 1 50.77 1 40c0-10.77 4.365-20.52 11.423-27.577C19.48 5.365 29.23 1 40 1z" transform="translate(-655 -7275) translate(0 7184) translate(680 107)"/>
+                    <path fill="#FFF" d="M49.466 24.644c1.029-1.632 3.206-2.133 4.864-1.12 1.626.992 2.147 3.074 1.196 4.692l-.058.095L38.64 55l-12.978-7.984c-1.655-1.018-2.158-3.163-1.124-4.792 1.014-1.597 3.13-2.104 4.772-1.162l.096.057 6.969 4.287 13.092-20.762z" transform="translate(-655 -7275) translate(0 7184) translate(680 107)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
